@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weather Journal</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="nav"></nav>
+
+    <div id="app">
+      <header id="half_top">
+        <header id="header">
+          <h1 class="holder headline">Weather Journal App</h1>
+        </header>
+        <div id="zip_img">
+          <p>And thes are some zip codes you can choose from</p>
+          <img src="USA_PC5_600x600.jpg" alt="zip codes" />
+        </div>
+        <div class="holder zip">
+          <label for="zip">Enter Zipcode here</label>
+          <input type="text" id="zip" placeholder="enter zip code here" />
+        </div>
+
+        <div class="holder feel">
+          <label for="feelings">How are you feeling today?</label>
+
+          <div id="dive">
+            <textarea
+              class="myInput"
+              id="feelings"
+              placeholder="Enter your feelings here"
+              rows="7"
+              cols="50"
+            ></textarea>
+          </div>
+          <div id="button">
+            <button id="generate" type="submit">Generate</button>
+          </div>
+        </div>
+      </header>
+      <div id="js" class="holder entry">
+        <br />
+        <div class="title"></div>
+
+        <div id="entryHolder">
+          <div id="location"></div>
+          <br />
+          <div id="date"></div>
+          <div id="temp"></div>
+          <br />
+          <div id="content"></div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
