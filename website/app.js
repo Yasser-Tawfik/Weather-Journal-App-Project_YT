@@ -165,6 +165,8 @@ const updateUI = async ()=>{
         document.getElementById('content').innerHTML = '  The MOOD😐 Of Today : \n ' + allWeatherAndUserInfo  .currentMood;
 
         //  and if there is an error we will catch it and console log it.
+        // appropriately handle the error
+
     } catch (error){
         console.log("error", error);
     }
