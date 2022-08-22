@@ -514,6 +514,10 @@ console.log(div);
 <br>
 
 
+11. After all of this, you should run the server in the terminal to be able to use the website correctly and to be able to see the results by typing in the terminal `node server.js` `node` + the name of the `server file`
+you should go to [http://localhost:2525/](http://localhost:2525/) after cloning the project to use it
+
+<br>
 
 ---
 
